@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E087CC4223572C5005FD558 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E087CC3223572C5005FD558 /* Point.swift */; };
+		8E087CC722357A04005FD558 /* elevation.data in Resources */ = {isa = PBXBuildFile; fileRef = 8E087CC522357A03005FD558 /* elevation.data */; };
+		8E087CC822357A04005FD558 /* overrides.data in Resources */ = {isa = PBXBuildFile; fileRef = 8E087CC622357A04005FD558 /* overrides.data */; };
 		8E92298522241AEE0081E3A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E92298422241AEE0081E3A1 /* AppDelegate.swift */; };
 		8E92298722241AEE0081E3A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E92298622241AEE0081E3A1 /* ViewController.swift */; };
 		8E92298922241AEF0081E3A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E92298822241AEF0081E3A1 /* Assets.xcassets */; };
 		8E92298C22241AEF0081E3A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E92298A22241AEF0081E3A1 /* Main.storyboard */; };
+		8E92299522241B450081E3A1 /* Island.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E92299422241B450081E3A1 /* Island.png */; };
+		8E92299722241C580081E3A1 /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E92299622241C580081E3A1 /* Matrix.swift */; };
+		8E922999222423610081E3A1 /* NSImage+pixelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E922998222423610081E3A1 /* NSImage+pixelData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8E087CC3223572C5005FD558 /* Point.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
+		8E087CC522357A03005FD558 /* elevation.data */ = {isa = PBXFileReference; lastKnownFileType = file; path = elevation.data; sourceTree = "<group>"; };
+		8E087CC622357A04005FD558 /* overrides.data */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = overrides.data; sourceTree = "<group>"; };
 		8E92298122241AEE0081E3A1 /* tsp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tsp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E92298422241AEE0081E3A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E92298622241AEE0081E3A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -21,6 +30,9 @@
 		8E92298B22241AEF0081E3A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8E92298D22241AEF0081E3A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E92298E22241AEF0081E3A1 /* tsp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = tsp.entitlements; sourceTree = "<group>"; };
+		8E92299422241B450081E3A1 /* Island.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Island.png; sourceTree = "<group>"; };
+		8E92299622241C580081E3A1 /* Matrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Matrix.swift; sourceTree = "<group>"; };
+		8E922998222423610081E3A1 /* NSImage+pixelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSImage+pixelData.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,12 +65,18 @@
 		8E92298322241AEE0081E3A1 /* tsp */ = {
 			isa = PBXGroup;
 			children = (
+				8E92299622241C580081E3A1 /* Matrix.swift */,
 				8E92298422241AEE0081E3A1 /* AppDelegate.swift */,
 				8E92298622241AEE0081E3A1 /* ViewController.swift */,
+				8E92299422241B450081E3A1 /* Island.png */,
 				8E92298822241AEF0081E3A1 /* Assets.xcassets */,
 				8E92298A22241AEF0081E3A1 /* Main.storyboard */,
+				8E087CC522357A03005FD558 /* elevation.data */,
+				8E087CC622357A04005FD558 /* overrides.data */,
 				8E92298D22241AEF0081E3A1 /* Info.plist */,
 				8E92298E22241AEF0081E3A1 /* tsp.entitlements */,
+				8E922998222423610081E3A1 /* NSImage+pixelData.swift */,
+				8E087CC3223572C5005FD558 /* Point.swift */,
 			);
 			path = tsp;
 			sourceTree = "<group>";
@@ -122,6 +140,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E92298922241AEF0081E3A1 /* Assets.xcassets in Resources */,
+				8E087CC722357A04005FD558 /* elevation.data in Resources */,
+				8E087CC822357A04005FD558 /* overrides.data in Resources */,
+				8E92299522241B450081E3A1 /* Island.png in Resources */,
 				8E92298C22241AEF0081E3A1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -134,7 +155,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E92298722241AEE0081E3A1 /* ViewController.swift in Sources */,
+				8E922999222423610081E3A1 /* NSImage+pixelData.swift in Sources */,
+				8E087CC4223572C5005FD558 /* Point.swift in Sources */,
 				8E92298522241AEE0081E3A1 /* AppDelegate.swift in Sources */,
+				8E92299722241C580081E3A1 /* Matrix.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
